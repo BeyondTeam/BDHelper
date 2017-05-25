@@ -12,7 +12,7 @@ An Helper Bot For BDReborn Based On BDMessenger
 
 * Put Your Bot `TOKEN` At Line `3`
 * Put Your `Telegram ID` At Line `5`
-* Put Your `Telegram ID` And Your Cli Bot `Telegram ID` At Line `133`
+* Put Your `Telegram ID` And Your Cli Bot `Telegram ID` At Line `165`
 
 # Installation
 
