@@ -27,6 +27,7 @@ chmod +x beyond.sh
 
 
 # For Auto Launch:
+cd BDHelper
 chmod 777 autobd.sh
 tmux
 ./autobd.sh
@@ -35,12 +36,12 @@ tmux
 ### One command
 To install everything in one command, use:
 ```sh
-cd $HOME && git clone https://github.com/BeyondTeam/BDMessenger.git && cd BDMessenger && chmod +x beyond.sh && ./beyond.sh install && ./beyond.sh
+cd $HOME && git clone https://github.com/BeyondTeam/BDHelper.git && cd BDMessenger && chmod +x beyond.sh && ./beyond.sh install && ./beyond.sh
 ```
 
 # Support and Development
 
-More information [Beyond Global Chat](https://t.me/joinchat/AAAAAEGaKOxC8K6cJ3bCcw)
+More information [Beyond Global Chat](https://telegram.me/joinchat/AAAAAEIDQ8HTjezV4syUSA)
 
 # Special thanks to
 
