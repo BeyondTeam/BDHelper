@@ -1,7 +1,7 @@
 package.path = package.path..';.luarocks/share/lua/5.2/?.lua;.luarocks/share/lua/5.2/?/init.lua'
 package.cpath = package.cpath..';.luarocks/lib/lua/5.2/?.so'
-    bot_token = "Token" --Put You Token Here
-   send_api = "https://api.telegram.org/bot"..bot_token
+bot_token = "Token" --Put You Token Here
+send_api = "https://api.telegram.org/bot"..bot_token
 sudo_id = 157059515
 require('./bot/methods')
 require('./bot/utils')
@@ -130,8 +130,8 @@ if msg.message then
   msg.message_id = msg.message.message_id
   msg.chat = msg.message.chat
 else -- if keyboard send via
-			msg.chat = {type = 'inline', id = msg.from.id, title = msg.from.first_name}
-			msg.message_id = msg.inline_message_id
+	msg.chat = {type = 'inline', id = msg.from.id, title = msg.from.first_name}
+	msg.message_id = msg.inline_message_id
     end
   msg.cb_id = msg.id
   msg.date = os.time()
@@ -166,7 +166,7 @@ function create_config( )
     admins = {},
     disabled_channels = {},
     moderation = {data = ''..BeyondTeam..'/data/moderation.json'},
-    info_text = [[*》Beyond Helper Bot V1.0*
+    info_text = [[*》Beyond Helper Bot V1.5*
 `》An helper bot of` *BDReborn* `based on` *BDMessenger*
 
 》[Beyond Helper](https://github.com/BeyondTeam/BDHelper)
