@@ -36,7 +36,7 @@ tmux
 ### One command
 To install everything in one command, use:
 ```sh
-cd $HOME && git clone https://github.com/BeyondTeam/BDHelper.git && cd BDMessenger && chmod +x beyond.sh && ./beyond.sh install && ./beyond.sh
+cd $HOME && git clone https://github.com/BeyondTeam/BDHelper.git && cd BDHelper && chmod +x beyond.sh && ./beyond.sh install && ./beyond.sh
 ```
 
 # Support and Development
